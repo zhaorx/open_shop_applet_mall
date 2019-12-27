@@ -15,4 +15,10 @@ import org.apache.ibatis.annotations.Mapper;
 public interface MlsUserDao extends BaseDao<MlsUserEntity2> {
 
     int updatefx(MlsUserEntity2 user);
+
+    int mlsUseCount();
+
+    int insertMlsUse();
+
+    int updateMlsUse();
 }
