@@ -65,8 +65,6 @@
 # 小程序演示效果
 ![](https://images.gitee.com/uploads/images/2019/0625/104952_f9964aa6_1293644.png "前段演示")
 
-# 后端登录界面
-![登录界面](https://images.gitee.com/uploads/images/2019/0223/145541_ceb02a32_1293644.jpeg "登录，小程序商城")
 # 主界面
 ![主界面](https://images.gitee.com/uploads/images/2019/0223/145546_1c4fc356_1293644.jpeg "主界面，插件商城")
 # 菜单
