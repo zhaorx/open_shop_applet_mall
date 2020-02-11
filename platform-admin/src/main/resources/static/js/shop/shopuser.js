@@ -192,7 +192,7 @@ var vm = new Vue({
             openWindow({
                 title: '推广信息',
                 type: 2,
-                content: '../com.platform..shop.com.platform.shop.dao/promoter.html?promoterId=' + id
+                content: 'promoter.html?promoterId=' + id
             })
         },
         //推广人变更
@@ -204,7 +204,7 @@ var vm = new Vue({
             openWindow({
                 title: '推广人变更',
                 type: 2,
-                content: '../com.platform..shop.com.platform.shop.dao/promoterUpdate.html?promoterId=' + id
+                content: 'promoterUpdate.html?promoterId=' + id
             })
         },
         shopCart: function () {
@@ -215,7 +215,7 @@ var vm = new Vue({
             openWindow({
                 title: '购物车',
                 type: 2,
-                content: '../com.platform..shop.com.platform.shop.dao/cart.html?userId=' + id
+                content: 'cart.html?userId=' + id
             })
         },
         getInfo: function (id) {
