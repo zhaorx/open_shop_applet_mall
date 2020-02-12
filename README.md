@@ -4,7 +4,7 @@
 
 # 对比open-shop项目，初步作了如下修改调整
 * 对项目包结构进行了部分调整，目前项目之间的依赖处理的不是很好
-* 项目整体使用springboot框架进行替换，一个Main函数启动，去掉外部容器的依赖，简化不是
+* 项目整体使用springboot框架进行替换，一个Main函数启动，去掉外部容器的依赖
 * 持久层引入mybatis Plus 目前仅做了兼容之前的接口，后面开会新接口，可以基于mybatis Plus 封装接口进行开发
 * 视图层因springboot2以后不支持velocity模板 ,故废弃掉velocity模板改使用Freemarker模板；
 
@@ -40,8 +40,10 @@
 
   #管理端
 * 将Open-Shop项目源码通过maven形式导入IDEA；
+* 需要下载Redis并启动
 * 导入shop.sql数据文件,注意：数据库使用utf-8编码； 
 * 修改platform-admin/application-dev.yml文件中的数据库设置参数；
+* 修改j2cache.properties文件Redis连接信息
 * 直接启动包根目录下的PlatformAdminApplication
 * 访问后台地址：http://ip|域名/项目发布名/
 * 管理员账号，用户名：admin 密码：admin
@@ -49,8 +51,10 @@
 
   #小程序端
 * 将Open-Shop项目源码通过maven形式导入IDEA；
+* 需要下载Redis并启动
 * 导入shop.sql数据文件,注意：数据库使用utf-8编码； 
 * 修改platform-api/application-dev.yml文件中的数据库设置参数；
+* 修改j2cache.properties文件Redis连接信息
 * 直接启动包根目录下的ApiApplication
 
 
