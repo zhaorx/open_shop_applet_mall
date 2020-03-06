@@ -249,7 +249,7 @@ var vm = new Vue({
             openWindow({
                 type: 2,
                 title: '产品设置',
-                content: '../com.platform..shop.com.platform.shop.dao/product.html?goodsId=' + id
+                content: '../shop/product.html?goodsId=' + id
             });
         },
         unSale: function () {
