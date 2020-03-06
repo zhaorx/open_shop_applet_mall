@@ -158,7 +158,7 @@ var vm = new Vue({
             openWindow({
                 title: '优惠券',
                 type: 2,
-                content: '../com.platform..shop.com.platform.shop.dao/usercoupon.html?userId=' + id
+                content: '../shop/usercoupon.html?userId=' + id
             })
         },
         address: function () {
@@ -169,7 +169,7 @@ var vm = new Vue({
             openWindow({
                 title: '收获地址',
                 type: 2,
-                content: '../com.platform..shop.com.platform.shop.dao/address.html?userId=' + id
+                content: '../shop/address.html?userId=' + id
             })
         },
         customer: function () {
@@ -180,7 +180,7 @@ var vm = new Vue({
             openWindow({
                 title: '客户信息',
                 type: 2,
-                content: '../com.platform..shop.com.platform.shop.dao/customer.html?userId=' + id
+                content: '../shop/customer.html?userId=' + id
             })
         },
         //推广信息
