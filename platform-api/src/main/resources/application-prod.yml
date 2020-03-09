@@ -60,25 +60,3 @@ spring:
       repositories:
         enabled: true
 
-aikeyi:
-  baseDir: /root/data
-  ffmpegEXE: /usr/local/bin/ffmpeg
-  m3u8Domain: https://aiyike.oss-cn-beijing.aliyuncs.com/
-  m3u8Path: /root/data/m3u8
-  aliyunDomain: https://aiyike.oss-cn-beijing.aliyuncs.com
-  aliyunPrefix:
-  aliyunEndPoint: oss-cn-beijing.aliyuncs.com
-  aliyunAccessKeyId: LTAI4Fc1mnb691RtpYsYtnuB
-  aliyunAccessKeySecret: YNjzqvxSH3AgcRlZQIoUFrH5qbppdG
-  aliyunBucketName: aiyike
-  accessKeyID: LTAI4FmviZBCdqUPfhRgY1Eo
-  accessKeySecret: vcVLHWVMpsus0yyjKvj1PZnWdmPMhT
-
-
-cobo:
-  url: https://api.custody.cobo.com
-  #url: https://api.sandbox.cobo.com
-  pub_key: 037ec688f4792dc9c5a5a76dec2e49da6f234fbc6a55fea38a2337f6e77beae417
-  priv_key: b499fbeb59d7d3761c74f1f6242e2361b00d7ea7dd2b734ec0dda4a0e091fe8e
-
-
